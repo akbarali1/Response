@@ -1,0 +1,32 @@
+{
+  "name":"akbarali/api-response-contract",
+  "version":"0.1.0",
+  "description":"Result Data PHP Laravel",
+  "license":"MIT",
+  "minimum-stability":"stable",
+  "type":"library",
+  "keywords":[
+    "php",
+    "laravel"
+  ],
+  "autoload":{
+    "psr-4":{
+      "Akbarali\\ResultData\\":"src/"
+    }
+  },
+  "authors":[
+    {
+      "name":"Akbarali",
+      "email":"github@akbarali.uz",
+      "homepage":"https://github.com/akbarali1"
+    }
+  ],
+  "require":{
+    "php":">=8.0",
+    "illuminate/support":">=7",
+    "illuminate/collections": "^10.46"
+  },
+  "require-dev":{
+    "roave/security-advisories":"dev-latest"
+  }
+}
